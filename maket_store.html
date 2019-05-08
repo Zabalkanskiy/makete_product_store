@@ -1,0 +1,77 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <title>Product store</title>
+    </head>
+<body>
+    <div class="navbar navbar-inverse bg-inverse">
+        <a class="navbar-brand">Product store</a>
+        <div class="pull-xs-right">
+            <small>
+                Your cart:
+                <span ><!-- если в корзине есть товар --> 
+                    <p>
+                        Колличество товара: 0
+                    </p>
+                    <p>Цена товара: 0</p>
+                </span>
+                <!--<span *ngIf="cart.itemCount == 0"> если корзина пустая
+                    (empty)
+                </span> -->
+                <button class="btn btn-sm bg-inverse" ">
+                     <i class="fa fa-shopping-cart"></i>
+                </button>
+            </small>
+        </div>
+     </div>
+            <div class="col-xs-3 p-a-1">
+            <button class="btn btn-block btn-outline-primary" >
+                Home
+            </button>
+            <button class="btn btn-outline-primary  btn-block" >
+                Category 1
+            </button>
+             <button class="btn btn-outline-primary  btn-block" >
+                Category 2
+            </button>
+
+             <button class="btn btn-outline-primary  btn-block" >
+                Category 3
+            </button>
+ 
+        </div>
+        <div class="col-xs-9 p-a-1">
+            <div  class="card card-outline-primary">
+                <h4 class="card-header">
+                    Product 1
+                    <span class="pull-xs-right tag tag-pill tag-primary">
+                        Price 0
+                    </span>
+                </h4>
+                    <div class="card-text p-a-1">description product</div>
+            </div>
+            <div  class="card card-outline-primary">
+                <h4 class="card-header">
+                    Product 2
+                    <span class="pull-xs-right tag tag-pill tag-primary">
+                        Price 0
+                    </span>
+                </h4>
+                    <div class="card-text p-a-1">description product</div>
+            </div>
+            <div  class="card card-outline-primary">
+                <h4 class="card-header">
+                    Product 3
+                    <span class="pull-xs-right tag tag-pill tag-primary">
+                        Price 0
+                    </span>
+                </h4>
+                    <div class="card-text p-a-1">description product</div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
